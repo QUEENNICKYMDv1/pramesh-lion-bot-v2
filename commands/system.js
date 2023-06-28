@@ -252,38 +252,28 @@ cmd({
 cmd({
             pattern: "alive",
             category: "general",
+            react: "🦁",
             filename: __filename,
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
-            const alivtxt = `
-▍ *Hello, ${citel.pushName},
+            const palive = `
+*◈━━━━━━━━━━━━━◈*
+*𝙷𝙸 ${citel.pushName}*
+
+*️‍𝐈 𝐀𝐌 ☬༒𝙥𝙧𝙖𝙢𝙚𝙨𝙝༆𝙡𝙞𝙤𝙣⃕ 𝙗𝙤𝙩༒*
+
+_*❤️‍🩹සුබ දවසක්❤️‍🩹*_
 
 
-▍ *Version:-* _𝚌𝚘𝚖𝚖𝚒𝚗𝚐 𝚜𝚘𝚘𝚗_
-
-▍ *Uptime:-* _${runtime(process.uptime())}_
-
-▍ *Owner:-* _${Config.ownername}_
-
-
- *තාක්⃝⃐ෂනික ⃑මො⃐⃐ල* 
- *ක⃐රු⃛⃜වන්⃛⃜ගේ⃛*  
- *ස⃝න්නා⃝මය #⃝ත්⃝තෝ⃚⃝* ☋
-
-
-
-
-
-_Powered by ${Config.ownername}_
-
+_🅤🅟🅣🅘🅜🅔_ ~${runtime(process.uptime())}~
+*◈━━━━━━━━━━━━━◈*
 `;
             let aliveMessage = {
                 image: {
-                    url: await botpic(),
+                    url: `https://i.ibb.co/CMCNByx/Picsart-22-07-03-15-45-00-698.jpg`,
                 },
-                caption: alivtxt,
+                caption: palive,
                 footer: tlang().footer,
                 headerType: 4,
             };
