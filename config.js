@@ -17,7 +17,6 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.ibb.co/CMCNByx/Picsar
 module.exports = {
   botname: process.env.BOT_NAME || '༺❤️༒🦁PRAMESH LION BOT🦁༒❤️༻',
   ownername:process.env.OWNER_NAME || '𝙥𝙧⃢𝙖𝙢⃪𝙚⃨⃕𝙨𝙝 𝙣𝙞⃢𝙡𝙖𝙠𝙨⃨𝙝⃡⃗𝙖⃝𝙣',
-  sessionName: process.env.SESSION_ID || 'Secktor;;;PollingGeorge',
   author: process.env.PACK_INFO || (";")[0] || 'author',
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO || (";")[1] || 'author', 
@@ -36,7 +35,7 @@ module.exports = {
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'OPENAI_KEY',
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
-  LANG: process.env.THEME|| 'NIMESH-MD',
+  LANG: process.env.THEME|| 'SECKTOR',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
