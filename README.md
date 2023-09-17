@@ -16,7 +16,7 @@
   </a>
 </p>
 
-
+## [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/QUEENNICKYMDv1/pramesh-lion-bot-v2)
 ---
 
 <p align="center"><img src="https://profile-counter.glitch.me/{SamPandey001}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
