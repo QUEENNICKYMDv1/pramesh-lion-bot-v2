@@ -1,7 +1,7 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/QUEENNICKYMDv1/pramesh-lion-bot-v2 /root/Queen nicky
-WORKDIR /root/Queen nicky/
+RUN git clone https://github.com/QUEENNICKY/QUEEN-NICKY-MD-V1 /root/QUEEN-NICKY
+WORKDIR /root/QUEEN-NICKY/
 RUN npm install npm@latest
-RUN yarn install --network-concurrency 1
+RUN npm install
 EXPOSE 8000
 CMD ["npm", "start"]
